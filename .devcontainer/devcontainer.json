@@ -51,14 +51,6 @@
 		}
 	}
 
-	// "extensions": [
-	// "editorconfig.editorconfig",
-	// "matklad.rust-analyzer",
-	// "vadimcn.vscode-lldb",
-	// "bungcip.better-toml",
-	// "serayuzgur.crates"
-  // ]
-
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
 	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
 
