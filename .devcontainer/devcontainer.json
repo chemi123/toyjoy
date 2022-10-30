@@ -15,7 +15,7 @@
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
 	"postCreateCommand": "chsh -s /bin/zsh; sh setup.sh;",
 
-	"postStartCommand": "/bin/zsh; export SHELL=/bin/zsh",
+	"postStartCommand": "/bin/zsh",
 
 	// 以下のようなコマンドを実行して起動してほしい(ubuntuを例として)
 	// docker run -it --name=ubuntu --cap-add CAP_SYS_ADMIN --cap-add NET_ADMIN --security-opt apparmor=unconfined ubuntu
