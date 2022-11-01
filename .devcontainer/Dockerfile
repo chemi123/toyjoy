@@ -5,6 +5,6 @@ RUN echo iptables-persistent iptables-persistent/autosave_v4 boolean true | debc
     echo iptables-persistent iptables-persistent/autosave_v6 boolean true | debconf-set-selections
 
 RUN apt update && \
-    apt-get -y install iproute2 vim iptables-persistent ethtool tcpdump git zsh screen && \
+    apt-get -y install iproute2 vim iptables-persistent ethtool tcpdump git zsh screen netcat && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
